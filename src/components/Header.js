@@ -5,7 +5,10 @@ import './Header.css';
 const Header = () => (
   <header className="header">
     <div className="container">
-      <h1>EEZI Solutions</h1>
+      <div className="logo-container">
+        <img src="/logo.png" alt="EEZI Solutions Logo" className="logo" />
+        <h1>EEZI Solutions</h1>
+      </div>
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>

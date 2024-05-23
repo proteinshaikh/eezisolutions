@@ -1,6 +1,6 @@
 .service-card {
-    background: #fff;
-    border: 1px solid #ddd;
+    background: #ebc4c4;
+    border: 1px solid #441c1c;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 1.5em;
@@ -16,13 +16,13 @@
   
   .service-card h2 {
     font-size: 1.8em;
-    color: #007bff;
+    color: #000000;
     margin-bottom: 0.5em;
   }
   
   .service-card p {
     font-size: 1em;
-    color: #666;
+    color: #000000;
     line-height: 1.6;
   }
   
