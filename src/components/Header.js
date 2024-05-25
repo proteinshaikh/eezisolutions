@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css';
+import '../styles/Header.css';
 
 const Header = () => (
   <header className="header">
     <div className="container">
       <div className="logo-container">
         <img src="/logo.png" alt="EEZI Solutions Logo" className="logo" />
-        <h1>EEZI Solutions</h1>
+        <h1 className="site-title">EEZI Solutions</h1>
       </div>
       <nav>
         <ul>
